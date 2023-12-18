@@ -1,0 +1,19 @@
+.about {
+  background-image: url(../src/mainBG.png);
+}
+.aboutUs {
+  text-align: center;
+  margin: 150px;
+  padding: 11px 44px;
+  border-radius: 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+}
+.aboutUs h1{
+    font-weight: 400;
+    line-height: 2;
+}

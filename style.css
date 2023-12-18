@@ -1,0 +1,316 @@
+/* =======Global Code========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #54cf4b;
+}
+li {
+  list-style: none;
+}
+main {
+  background-image: url(./src/mainBG.png);
+  position: relative;
+}
+.container {
+  margin: 0 142px;
+}
+i {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+/* ===========Navbar=========== */
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  background: rgb(15, 104, 173);
+}
+.line {
+  border-top: solid transparent;
+}
+section {
+  margin-top: 35px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+.nav_logo h1 {
+  width: 120px;
+}
+.nav_menu {
+  position: relative;
+}
+.navUl {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.nav_btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(37, 99, 235, 1),
+    rgba(111, 87, 237, 1),
+    rgb(143, 70, 239)
+  );
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.resBtn{
+  display:none;
+}
+/* ==========New Album Section========== */
+.newAlbum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0;
+}
+.newLeft {
+  width: 45%;
+}
+.newLeft h1 {
+  font-size: 96px;
+  font-weight: 1200;
+  margin-bottom: 70px;
+}
+.newLeft p {
+  font-size: 40px;
+  font-weight: 200;
+}
+.newRight img {
+  border: 30px solid #000;
+  border-radius: 50%;
+}
+/* ============TodaysTickets Section============= */
+.todaysTicketsCards {
+  margin-bottom: 70px;
+}
+.todaysTicketsCard {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 52px;
+}
+.todaysTicketsText {
+  margin-bottom: 34px;
+  font-size: 30px;
+}
+.card {
+  width: 270px;
+  height: 266px;
+  padding: 32px;
+  text-align: center;
+  border-radius: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.03) -11.04%,
+    rgba(255, 255, 255, 0.02) 104.89%
+  );
+
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+}
+.cardImg img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+.card h1 {
+  font-weight: 400;
+}
+.card small {
+  line-height: 3;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.icons i {
+  color: rgba(24, 119, 242, 1);
+}
+.cost {
+  width: 184px;
+  height: 40px;
+  padding: 7px 12px;
+  margin: auto;
+  margin-top: 14px;
+  border-radius: 14px;
+  background: #3d53c6;
+  cursor: pointer;
+}
+.cost:hover {
+  background: #233ec3;
+}
+/* ===============Albums Shop Section=========== */
+.sale {
+  text-align: center;
+  font-size: 42px;
+  margin: 120px 0 10px 0;
+}
+.kLine1 {
+  width: 144.083px;
+  height: 6px;
+  border-radius: 119px;
+  background: #ffa630;
+  margin-bottom: 30px;
+}
+.kCards {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 52px;
+}
+.kcard {
+  width: 250px;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.03) -11.04%,
+    rgba(255, 255, 255, 0.02) 104.89%
+  );
+  transition: all 0.9s ease;
+
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+}
+.kcard:hover {
+  border: 1px solid rgba(255, 255, 255, 0.132);
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.108) -11.04%,
+    rgba(255, 255, 255, 0.121) 104.89%
+  );
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.545);
+}
+.ktext {
+  margin: 20px 0;
+}
+.kimg img{
+  border: 15px solid black ;
+  border-radius: 50%;
+}
+.kcost {
+  width: 184px;
+  height: 40px;
+  padding: 7px 12px;
+  margin: auto;
+  border-radius: 14px;
+  background: rgba(10, 35, 171, 1);
+  cursor: pointer;
+}
+
+.kLine2 {
+  height: 2px;
+  border-radius: 119px;
+  background: #f2f2f2;
+  margin: 50px 0;
+}
+/*============Subscribe Section============ */
+.subscribe {
+  margin-bottom: 60px;
+}
+.subscribeCard {
+  text-align: center;
+  padding: 50px 0 35px 0;
+  border-radius: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.03) -11.04%,
+    rgba(255, 255, 255, 0.02) 104.89%
+  );
+
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+}
+.subscribeCard h1 {
+  font-size: 42px;
+}
+.subscribeCard p {
+  margin: 50px 0;
+}
+.subEmail {
+  width: 70%;
+  height: 70px;
+  border: none;
+  outline: none;
+  flex-shrink: 0;
+  text-indent: 44px;
+  border-radius: 70px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+}
+.subForm {
+  position: relative;
+}
+.subBtn {
+  position: absolute;
+  top: 8%;
+  right: 16%;
+  border-radius: 70px;
+  padding: 19px 44px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%);
+  border: none;
+  outline: none;
+}
+.subBtn img {
+  margin-right: 10px;
+}
+/* ===============Footer=============== */
+footer {
+  background: rgba(31, 14, 223, 0.15);
+}
+.footTop {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  padding: 25px 0;
+}
+.footTop h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.footLogo {
+  font-size: 42px !important;
+  width: 200px;
+  line-height: 1;
+  font-weight: 400;
+}
+svg {
+  cursor: pointer;
+}
+.footLine {
+  height: 1.5px;
+  opacity: 0.2;
+  background: #969696;
+}
+.footBottom {
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+}

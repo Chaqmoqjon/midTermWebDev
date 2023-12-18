@@ -1,0 +1,45 @@
+.service {
+  background-image: url(../src/mainBG.png);
+}
+.services {
+  margin-top: 150px;
+}
+.services h1 {
+  text-align: center;
+}
+.serviceCards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.serviceCard {
+  position: relative;
+  width: 280px;
+  text-align: center;
+  padding: 40px 17px;
+  border-radius: 34px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+}
+.serviceCard:hover {
+  border: 1px solid rgba(255, 255, 255, 0.132);
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.108) -11.04%,
+    rgba(255, 255, 255, 0.121) 104.89%
+  );
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.545);
+}
+.serviceCard p {
+  margin: 20px 0;
+}
+.serviceCard p a {
+  position: absolute;
+  right: 71px;
+  bottom: 26px;
+}

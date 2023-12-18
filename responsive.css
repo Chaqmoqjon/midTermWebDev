@@ -1,0 +1,184 @@
+/* For tablets: */
+@media only screen and (max-width: 1400px) {
+  /* index.html */
+  .container {
+    margin: 0 30px;
+  }
+  .newRight {
+    display: none;
+  }
+  .newLeft {
+    width: 100%;
+  }
+  .todaysTicketsCard .card:last-child {
+    display: none;
+  }
+  .kcard:last-child {
+    display: none;
+  }
+  .subscribe {
+    margin-bottom: 50px;
+  }
+
+  /* about.html */
+  .aboutUs{
+    margin-top: 130px;
+    margin-bottom: 50px;
+  }
+  .aboutUs h1{
+    font-size: 30px;
+  }
+  /* services.html */
+  .serviceCards{
+    margin: 50px;
+  }
+  .serviceCard:nth-child(4){
+    display: none;
+  }
+  /* definition.html */
+  .definitionsCards{
+    margin: 50px 30px;
+  }
+  /* contact.html */
+  .contacts{
+    margin-top: 130px;
+  }
+
+}
+/* For Mobile */
+@media only screen and (max-width: 1000px) {
+  /* index.html */
+
+  /* .navUl {
+    display: none;
+  } */
+
+  .resUl{
+    display: block;
+    position: absolute;
+    top: -46px;
+    right: -20px;
+    width: 200px;
+    background-color: cornflowerblue;
+    padding: 20px 30px;
+    border-radius: 0 0 0 8px;
+  }
+  .resBtn{
+    display: block;
+    position: absolute;
+    top: 10px;
+    z-index: 7;
+    right: 10px;
+  }
+  .d_none{
+    display: none;
+  }
+  .resUl li{
+    margin-bottom:30px ;
+  }
+
+  .todaysTicketsCard .card:nth-child(3) {
+    display: none;
+  }
+  .container {
+    margin: 0 20px;
+  }
+  .kcard:nth-child(3) {
+    display: none;
+  }
+  .subscribe {
+    margin-bottom: 50px;
+  }
+  .footTop {
+    display: block;
+    text-align: center;
+  }
+  .footLogo {
+    margin: auto;
+  }
+  .subBtn {
+    padding: 19px 20px;
+  }
+  /* about.html */
+  .aboutUs{
+    margin-top: 130px;
+    margin-bottom: 50px;
+  }
+  .aboutUs h1{
+    font-size: 30px;
+  }
+  /* services.html */
+  .serviceCards{
+    margin: 50px 10px;
+  }
+  .serviceCard:nth-child(3){
+    display: none;
+  }
+  /* definition.html */
+  .definitionsCards{
+    display: block;
+    margin: 50px 30px;
+  }
+  .definitionsCard{
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  /* contact.html */
+  .contacts{
+    margin-top: 130px;
+  }
+  .email{
+    width: 95%;
+  }
+  .area{
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* index.html */
+
+  .todaysTicketsCard .card:nth-child(2) {
+    display: none;
+  }
+  .todaysTicketsCard {
+    justify-content: center;
+  }
+  .container {
+    margin: 0 20px;
+  }
+  .kcard:nth-child(2) {
+    display: none;
+  }
+  .kCards {
+    justify-content: center;
+  }
+  .subscribe {
+    margin-bottom: 30px;
+  }
+  .subBtn {
+    display: none;
+  }
+  /* about.html */
+  .aboutUs{
+    margin-top: 130px;
+    margin-bottom: 50px;
+  }
+  .aboutUs h1{
+    font-size: 25px;
+  }
+  /* services.html */
+  .serviceCards{
+    margin: 30px;
+    justify-content: center;
+  }
+  .serviceCard:nth-child(2){
+    display: none;
+  }
+  /* contact.html */
+  .contacts{
+    margin-top: 130px;
+  }
+
+
+}

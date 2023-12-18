@@ -1,0 +1,65 @@
+.definition {
+  background-image: url(../src/mainBG.png);
+}
+.definitions {
+  margin-top: 150px;
+}
+.definitions h1 {
+  text-align: center;
+}
+.definitionsCards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.definitionsCard {
+  position: relative;
+  width: 380px;
+  border: 1px solid rgba(255, 255, 255, 0.27);
+  text-align: center;
+  padding: 30px 60px;
+  border-radius: 34px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+}
+.definitionsCard:hover {
+  border: 1px solid rgba(255, 255, 255, 0.132);
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.108) -11.04%,
+    rgba(255, 255, 255, 0.121) 104.89%
+  );
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.545);
+}
+.definitionsCard h1 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.definitionsCard p {
+  margin: 20px 0;
+}
+.definitionsCard p a {
+  position: absolute;
+  right: 71px;
+  bottom: 26px;
+}
+.defUl {
+  text-align: left;
+  line-height: 2;
+}
+.defUl li {
+  list-style: disc;
+}
+.defBtn {
+  background-color: rgba(55, 119, 165, 1);
+  padding: 10px 20px;
+  border-radius: 14px;
+  border: none;
+  margin-top: 20px;
+}
